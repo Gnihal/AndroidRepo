@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="197469" started-at="2020-06-12T15:13:29Z" finished-at="2020-06-12T15:16:46Z">
+    <groups>
+    </groups>
+    <test name="C:/Users/gangu/IdeaProjects/FrameWork/src/test/java/Practice" duration-ms="197469" started-at="2020-06-12T15:13:29Z" finished-at="2020-06-12T15:16:46Z">
+      <class name="Practice.ECommerce">
+        <test-method status="PASS" signature="KillAllProcess()[pri:0, instance:Practice.ECommerce@4667ae56]" name="KillAllProcess" is-config="true" duration-ms="3031" started-at="2020-06-12T15:13:29Z" finished-at="2020-06-12T15:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KillAllProcess -->
+        <test-method status="PASS" signature="totalValidation()[pri:0, instance:Practice.ECommerce@4667ae56]" name="totalValidation" duration-ms="75258" started-at="2020-06-12T15:15:31Z" finished-at="2020-06-12T15:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- Practice.ECommerce -->
+      <class name="Android_Apps.PageObject_ApiDemo.ApiDemo">
+        <test-method status="PASS" signature="ApiDemo(java.lang.String)[pri:0, instance:Android_Apps.PageObject_ApiDemo.ApiDemo@77cd7a0]" name="ApiDemo" duration-ms="60357" started-at="2020-06-12T15:13:32Z" data-provider="InputData" finished-at="2020-06-12T15:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiDemo -->
+        <test-method status="PASS" signature="ApiDemo(java.lang.String)[pri:0, instance:Android_Apps.PageObject_ApiDemo.ApiDemo@77cd7a0]" name="ApiDemo" duration-ms="58788" started-at="2020-06-12T15:14:32Z" data-provider="InputData" finished-at="2020-06-12T15:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiDemo -->
+      </class> <!-- Android_Apps.PageObject_ApiDemo.ApiDemo -->
+    </test> <!-- C:/Users/gangu/IdeaProjects/FrameWork/src/test/java/Practice -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

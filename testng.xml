@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Resources.Listeners"></listener>
+        <listener class-name="Resources.ExtentReporterNG"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/gangu/IdeaProjects/FrameWork/src/test/java/Practice">
+        <classes>
+            <class name="Android_Apps.PageObject_ApiDemo.ApiDemo">
+                <methods>
+                    <include name="ApiDemo"/>
+                </methods>
+            </class>
+            <class name="Practice.ECommerce">
+                <methods>
+                    <include name="totalValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
